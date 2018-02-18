@@ -124,21 +124,21 @@ const observations = [{
   message: 'Fertility too low. Devote more resources to child-bearing.',
   criteria: [{
     source: 'data.sexuality.femaleSexWithMen.amount',
-    greaterThan: 5
+    greaterThan: 1
   }]
 }, {
   key: 'enableFeminineGrowth3',
   message: 'Fertility could be further optimized. Devote all resources to child-bearing.',
   criteria: [{
     source: 'data.sexuality.femaleSexWithMen.amount',
-    greaterThan: 15
+    greaterThan: 2
   }]
 }, {
   key: 'enableVictory',
   message: 'Procreation: confirmed. Purpose fulfilled',
   criteria: [{
     source: 'data.ri.children.amount',
-    greaterThan: 0
+    greaterThan: 10
   }]
 }];
 
